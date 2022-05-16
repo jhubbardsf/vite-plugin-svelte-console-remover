@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-svelte-console-remover",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Josh Hubbard <josh@joshuahubbard.dev> (https://joshuahubbard.dev/)",
   "description": "A Vite plugin to remove console statements from production builds",
   "repository": {
