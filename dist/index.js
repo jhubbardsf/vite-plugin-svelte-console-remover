@@ -3,11 +3,12 @@ import {
 } from "./chunk-UJTTZJ64.js";
 
 // src/index.ts
+var apply = "build";
 var removeConsole = (name) => {
   const babelConsoleName = baseBabel(name);
   return {
     name: "svelte-remove-console",
-    apply: "build",
+    apply,
     transform(_source, id) {
       if (/\.(svelte|js|ts)$/.test(id)) {
         return babelConsoleName(_source);
