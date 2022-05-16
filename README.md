@@ -22,10 +22,6 @@ const config = {
         vite: {
             plugins: [removeConsole()],
         }
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		}
-	}
 };
 
 export default config;
