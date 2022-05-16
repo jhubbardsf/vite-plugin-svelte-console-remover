@@ -1,4 +1,4 @@
-# vite-plugin-svelte-remove-consoler
+# vite-plugin-svelte-console-remover
 
 [![npm](https://img.shields.io/npm/v/vite-plugin-svelte-console-remover?style=flat-square)](https://www.npmjs.com/package/vite-plugin-svelte-console-remover)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/vite-plugin-svelte-console-remover?style=flat-square)](https://www.npmjs.com/package/vite-plugin-svelte-console-remover)
