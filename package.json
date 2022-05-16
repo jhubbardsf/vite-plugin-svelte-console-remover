@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-svelte-console-remover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Josh Hubbard <josh@joshuahubbard.dev> (https://joshuahubbard.dev/)",
   "description": "A Vite plugin to remove console statements from production builds",
   "repository": {
@@ -13,7 +13,7 @@
   "main": "./index.js",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsup src/index.ts src/babel.ts --format esm && cp package.json dist/package.json"
+    "build": "tsup src/index.ts src/babel.ts --format esm && cp package.json dist/ && cp README.md dist/"
   },
   "devDependencies": {
     "@types/babel__core": "^7.1.19",
