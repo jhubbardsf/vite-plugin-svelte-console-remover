@@ -7,9 +7,11 @@
 
 A Vite plugin that removes all console statements (log, group, dir, error, etc) from Svelte, JS, and TS files during build so they don't leak into production.
 
-What this **doesn't** do: This does not remove **anything** from your codebase. Your console.logs will still be there. You'll still see them in development and any other non-production environment.
+---
 
-What this does: Removes all console statements from appearing on your production domain. They're removed during the build/tranform step, so they're stripped out on your production code.
+**What this doesn't do**: This does not remove **anything** from your codebase. Your console.logs will still be there. You'll still see them in development and any other non-production environment.
+
+**What this does**: Removes all console statements from appearing on your production domain. They're removed during the build/tranform step, so they're stripped out on your production code.
 
 ## Example Use
 
