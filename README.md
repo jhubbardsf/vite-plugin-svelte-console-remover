@@ -19,10 +19,11 @@ const config = {
 	preprocess: preprocess(),
 	kit: {
 		adapter: adapter(),
-        vite: {
-            plugins: [removeConsole()],
-        }
-};
+		vite: {
+			plugins: [removeConsole()],
+		}
+	}
+}
 
 export default config;
 ```
