@@ -5,7 +5,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/jhubbardsf/vite-plugin-svelte-console-remover?style=flat-square)](https://github.com/jhubbardsf/vite-plugin-svelte-console-remover)
 <a href="https://www.buymeacoffee.com/jhubbard"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=jhubbard&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" height=20 /></a>
 
-A vite plugin that removes all console statments (log, group, dir, error, etc) from Svelte, JS, and TS files during build so they don't leak into production.
+A Vite plugin that removes all console statments (log, group, dir, error, etc) from Svelte, JS, and TS files during build so they don't leak into production.
 
 ## Example Use
 
