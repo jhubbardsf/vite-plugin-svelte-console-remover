@@ -36,4 +36,4 @@ export default config;
 
 ---
 
-Note: After creating this it was pointed out to me that there is an esbuild config that can accomplish the same result, using [drop](https://esbuild.github.io/api/#drop).
+Note: You can accomplish something similar using esbuilds [drop](https://esbuild.github.io/api/#drop).
