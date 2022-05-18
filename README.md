@@ -7,7 +7,7 @@
 
 A Vite plugin that removes all console statements (log, group, dir, error, etc) from Svelte, JS, and TS files during build so they don't leak into production.
 
-NOTE: After creating this it was pointed out to me that there an esbuild config that can accomplish the same result.
+NOTE: After creating this it was pointed out to me that there is an esbuild config that can accomplish the same result.
 
 ```
 kit: {
